@@ -5,10 +5,11 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import PostComment from './PostComment';
 import PostAPI from './PostAPI';
+import MovieListCarousel from './MovieListCarousel';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <PostComment />
+    <MovieListCarousel />
     {/* <PostAPI /> */}
   </React.StrictMode>
 );
