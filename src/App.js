@@ -33,7 +33,7 @@ const DataExam=()=>{
               {item.title}
             </li>
         ))}
-      </ul>
+      </ul> 
     ) : (
     <p>데이터가 없습니다.</p>)
   }
