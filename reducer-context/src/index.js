@@ -3,14 +3,11 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import PostComment from './PostComment';
-import PostAPI from './PostAPI';
-import RowColAlerts from './ReducerCount';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
-    {/* <PostAPI /> */}
   </React.StrictMode>
 );
 
