@@ -9,7 +9,7 @@ import MovieListCarousel from './MovieListCarousel';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <MovieListCarousel />
+    <App />
     {/* <PostAPI /> */}
   </React.StrictMode>
 );

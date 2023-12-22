@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 
 const Joke=()=>{
-    const[joke,setJoke]=useState("");
+    const[joken,setJoke]=useState("");
 
     useEffect(()=>{
         axios.get('https://v2.jokeapi.dev/joke/Any')
